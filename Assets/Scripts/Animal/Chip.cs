@@ -78,7 +78,7 @@ public class Chip : MonoBehaviour
     // Debug để hiển thị khu vực di chuyển trong Scene
     void OnDrawGizmos()
     {
-        Gizmos.color = Color.yellow;
+        Gizmos.color = Color.green;
         Gizmos.DrawWireCube(areaCenter, areaSize); // Khu vực di chuyển theo tâm và kích thước
     }
 }
