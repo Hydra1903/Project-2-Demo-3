@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea0b86efd8eddac459f5a276d6c531cc, type: 3}
+  m_Name: NilonGarbage
+  m_EditorClassIdentifier: 
+  fishName: NilonGarbage
+  icon: {fileID: -637675242, guid: 6a4743f696d97ae40b271ebcb4d7cd02, type: 3}
+  quantity: 1
+  itemType: 4
+  toolType: 0
+  price: 1
+  energy: 0
+  description: 
+  catchChance: 40

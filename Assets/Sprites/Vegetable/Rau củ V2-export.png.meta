@@ -1,0 +1,1033 @@
+fileFormatVersion: 2
+guid: 3e5a54bb86c5cd146aa84388d2cfb3cd
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_0"
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 348
+        width: 33
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea252068d272e264f88dce51a5f2c21e
+      internalID: -794192214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_1"
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 339
+        width: 27
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c268a739ecfc5424592db4414b553053
+      internalID: -617314713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_2"
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 336
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06e17917e8367541a1905de63c28d66
+      internalID: 106067427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_3"
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 339
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c90c6f3d9eef964479a93534303d5db8
+      internalID: -1622636963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_4"
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 342
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b27129dcd6fda49b65ea1a7e981bd4
+      internalID: -1360607378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_5"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 339
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ec61f0d1f069c48a3503f59fcb5867
+      internalID: -417981341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_6"
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 291
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71eb6e7e46ff8aa4289f2ba98c266286
+      internalID: -1680706363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_7"
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 288
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd579e7fdcc935e4b911df412d53877c
+      internalID: 684268588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_8"
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 288
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28044823603ff7841bbbd6bab3edd3a5
+      internalID: -932047358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_9"
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 243
+        width: 48
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d04d76388f4d78d4aa85390da1a1a2c3
+      internalID: 4745681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_10"
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 288
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7170ef15c1a87547b0397048f85441b
+      internalID: -1155556935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_11"
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 288
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2378e2cab097094b8448065842d73e7
+      internalID: 1368589668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_12"
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 291
+        width: 42
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 159709e2a38ec304fb06cab6f80ca32d
+      internalID: 297598459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_13"
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 291
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19807c6f0f551c14d8149650ff56f96d
+      internalID: 1328232843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_14"
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 252
+        width: 30
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51f754316b27c346bc7f6d5dd466caf
+      internalID: 1208477099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_15"
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 240
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71e524676ad9085429170c95aea3d0b8
+      internalID: 297970709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_16"
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 240
+        width: 42
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908475b386e0179498d4b086c8d79371
+      internalID: 1040374460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_17"
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 243
+        width: 39
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac469d157538974ab45a7862e57c654
+      internalID: 901231850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_18"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 243
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5658a5ab38e864fb74a194965e1d27
+      internalID: -2050496129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_19"
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 195
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ce626aac8e39640a9be8685a12d711
+      internalID: 1393331789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_20"
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 207
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb836e879e42d844894e38254f961506
+      internalID: 1798167030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_21"
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 192
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7de8e35f3568694898dce10093ad722
+      internalID: 887111336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_22"
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 144
+        width: 33
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6953f53d57bc43341b1fbffe05ae21b8
+      internalID: -1271170794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_23"
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 192
+        width: 36
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c256d6db06a02614c8c0a3ece234a6f2
+      internalID: 1734904206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_24"
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 192
+        width: 33
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cca17e5b445bf1469ab642f322a6f55
+      internalID: 468677011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_25"
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 96
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bad5a97881ff14982ded1a66591344
+      internalID: -1343401394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_26"
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 192
+        width: 24
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97606f5052cb4e4ebc510821db26e0f
+      internalID: 634255793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_27"
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 156
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b49d4072f8d6f47bd1c51f9592ce27
+      internalID: -1457476151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_28"
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 156
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39117acc2301814c8b9682d84df8b84
+      internalID: 524245201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_29"
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 150
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9080b179c3f811341b6e0d69671ee9c2
+      internalID: -27547582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_30"
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 147
+        width: 42
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321cb11f19a2fc542861290f830eae6b
+      internalID: 249785492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_31"
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 147
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4b33ac02558784ca47bcc9ee5fbf4e
+      internalID: 593170376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_32"
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 96
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f885b4976c9b748b63c21f0a904134
+      internalID: -1853417036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_33"
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 96
+        width: 24
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b0775bb56dfb8a4eaff5f23ca096d46
+      internalID: -1942621390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_34"
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 96
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17137ec2a0552bb4cad0a917dec24246
+      internalID: -1586831914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_35"
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 96
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a888c70f70ef424daccee79c90d1a45
+      internalID: 1851097120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_36"
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 96
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5dd945a8260d8b4298461bc3df0669a
+      internalID: 96360509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_37"
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 96
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6993deb327e6eaf42a73c1f4da1a98cc
+      internalID: 1485248875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_38"
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 96
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fccfefaa19fcb24f9ef41f8ed40bead
+      internalID: 978799136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Rau c\u1EE7 V2-export_39"
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 99
+        width: 48
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6832cba735a2544cbfc415fe5d598c7
+      internalID: -692944086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "Rau c\u1EE7 V2-export_0": -794192214
+      "Rau c\u1EE7 V2-export_1": -617314713
+      "Rau c\u1EE7 V2-export_10": -1155556935
+      "Rau c\u1EE7 V2-export_11": 1368589668
+      "Rau c\u1EE7 V2-export_12": 297598459
+      "Rau c\u1EE7 V2-export_13": 1328232843
+      "Rau c\u1EE7 V2-export_14": 1208477099
+      "Rau c\u1EE7 V2-export_15": 297970709
+      "Rau c\u1EE7 V2-export_16": 1040374460
+      "Rau c\u1EE7 V2-export_17": 901231850
+      "Rau c\u1EE7 V2-export_18": -2050496129
+      "Rau c\u1EE7 V2-export_19": 1393331789
+      "Rau c\u1EE7 V2-export_2": 106067427
+      "Rau c\u1EE7 V2-export_20": 1798167030
+      "Rau c\u1EE7 V2-export_21": 887111336
+      "Rau c\u1EE7 V2-export_22": -1271170794
+      "Rau c\u1EE7 V2-export_23": 1734904206
+      "Rau c\u1EE7 V2-export_24": 468677011
+      "Rau c\u1EE7 V2-export_25": -1343401394
+      "Rau c\u1EE7 V2-export_26": 634255793
+      "Rau c\u1EE7 V2-export_27": -1457476151
+      "Rau c\u1EE7 V2-export_28": 524245201
+      "Rau c\u1EE7 V2-export_29": -27547582
+      "Rau c\u1EE7 V2-export_3": -1622636963
+      "Rau c\u1EE7 V2-export_30": 249785492
+      "Rau c\u1EE7 V2-export_31": 593170376
+      "Rau c\u1EE7 V2-export_32": -1853417036
+      "Rau c\u1EE7 V2-export_33": -1942621390
+      "Rau c\u1EE7 V2-export_34": -1586831914
+      "Rau c\u1EE7 V2-export_35": 1851097120
+      "Rau c\u1EE7 V2-export_36": 96360509
+      "Rau c\u1EE7 V2-export_37": 1485248875
+      "Rau c\u1EE7 V2-export_38": 978799136
+      "Rau c\u1EE7 V2-export_39": -692944086
+      "Rau c\u1EE7 V2-export_4": -1360607378
+      "Rau c\u1EE7 V2-export_5": -417981341
+      "Rau c\u1EE7 V2-export_6": -1680706363
+      "Rau c\u1EE7 V2-export_7": 684268588
+      "Rau c\u1EE7 V2-export_8": -932047358
+      "Rau c\u1EE7 V2-export_9": 4745681
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
