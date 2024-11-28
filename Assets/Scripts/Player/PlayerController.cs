@@ -6,11 +6,14 @@ public class PlayerController : MonoBehaviour
 {
     public static PlayerController instance;
     [SerializeField] private float moveSpeed;
-    private Rigidbody2D rigidbody2D;
+    private Rigidbody2D rb;
     private Animator anim;
     private SpriteRenderer spriteRenderer;
-    public float moveX, moveY;
+    private Vector2 move;
+    private PlayerState currentState = PlayerState.Idle; // Trạng thái hiện tại
     public float lastMoveX;
+    public float lastMoveY;
+
     private void Awake()
     {
         if (instance == null)
@@ -18,65 +21,87 @@ public class PlayerController : MonoBehaviour
         else
             Destroy(gameObject);
     }
+
     private void Start()
     {
-        rigidbody2D = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>();
         spriteRenderer = GetComponent<SpriteRenderer>();
         anim = GetComponent<Animator>();
     }
+
     private void Update()
     {
-         moveX = Input.GetAxis("Horizontal");
-         moveY = Input.GetAxis("Vertical");
-        // Cập nhật hướng dựa vào di chuyển
+        // Nhận input
+        move.x = Input.GetAxis("Horizontal");
+        move.y = Input.GetAxis("Vertical");
 
-        if (moveX != 0 || moveY != 0)
+        // Cập nhật trạng thái nhân vật dựa trên input
+        if (move.sqrMagnitude > 0) // Đang di chuyển
         {
-            lastMoveX = moveX;
-
-            //Set Animation
-            anim.SetFloat("moveX", moveX);
-            anim.SetFloat("moveY", moveY);
+            currentState = PlayerState.Moving;
+            lastMoveX = move.x;
+            lastMoveY = move.y;
+        }
+        else // Không di chuyển
+        {
+            currentState = PlayerState.Idle;
         }
 
-        rigidbody2D.velocity = new Vector2(moveX, moveY) * moveSpeed;
+        // Chuyển đổi trạng thái animation
+        SetAnimationState();
 
-        if(moveX == 1 || moveX == -1 || moveY == 1 || moveY == -1)
-        {
-            anim.SetFloat("lastMoveX", moveX);
-            anim.SetFloat("lastMoveY", moveY);
-        }
-        
+        // Di chuyển
+        rb.velocity = move * moveSpeed;
     }
+
+    // Phương thức chuyển đổi trạng thái animation
+    private void SetAnimationState()
+    {
+        switch (currentState)
+        {
+            case PlayerState.Idle:
+                anim.SetFloat("Speed", 0);
+                anim.SetFloat("LastMoveX", lastMoveX);
+                anim.SetFloat("LastMoveY", lastMoveY);
+                break;
+
+            case PlayerState.Moving:
+                anim.SetFloat("Horizontal", move.x);
+                anim.SetFloat("Vertical", move.y);
+                anim.SetFloat("Speed", move.sqrMagnitude);
+                break;
+
+            case PlayerState.Watering:
+                anim.SetFloat("LastMoveX", lastMoveX);
+                anim.SetFloat("LastMoveY", lastMoveY);
+                anim.SetTrigger("watering");
+                break;
+
+            case PlayerState.Digging:
+                anim.SetFloat("LastMoveX", lastMoveX);
+                anim.SetFloat("LastMoveY", lastMoveY);
+                anim.SetTrigger("digging");
+                break;
+        }
+    }
+
+
+    // Gọi khi thực hiện hành động tưới nước
     public void IsWatering()
     {
-        if (lastMoveX < 0)
-        {
-            spriteRenderer.flipX = true; // Lật hình ảnh sang trái
-            anim.SetTrigger("watering");
-        }
-        else if (lastMoveX > 0)
-        {
-            spriteRenderer.flipX = false; // Không lật hình ảnh (hướng sang phải)
-            anim.SetTrigger("watering");
-        }
+        currentState = PlayerState.Watering;
+        SetAnimationState(); // Kích hoạt trạng thái animation ngay lập tức
     }
+
+    // Gọi khi thực hiện hành động đào đất
     public void IsDigging()
     {
-        if (lastMoveX < 0)
-        {
-            spriteRenderer.flipX = true; // Lật hình ảnh sang trái
-            anim.SetTrigger("digging");
-        }
-        else if (lastMoveX > 0)
-        {
-            spriteRenderer.flipX = false; // Không lật hình ảnh (hướng sang phải)
-            anim.SetTrigger("digging");
-        }
+        currentState = PlayerState.Digging;
+        SetAnimationState(); // Kích hoạt trạng thái animation ngay lập tức
     }
+
     public void ResetFlipX()
     {
         spriteRenderer.flipX = false;
     }
-
 }
