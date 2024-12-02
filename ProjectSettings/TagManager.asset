@@ -3,10 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Item
-  - CropArea
-  - SeedBasket
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -14,12 +11,6 @@ TagManager:
   - 
   - Water
   - UI
-  - Background
-  - SoilLayer
-  - PlantLayer
-  - Platform
-  - Player
-  - Fence
   - 
   - 
   - 
@@ -31,6 +22,12 @@ TagManager:
   - 
   - 
   - 
+  - 
+  - 
+  - 
+  - Layer 1
+  - Layer 2
+  - Layer 3
   - 
   - 
   - 
@@ -44,27 +41,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Background
-    uniqueID: 1027855527
+  - name: Layer 1
+    uniqueID: 2425651459
     locked: 0
-  - name: SolidLayer
-    uniqueID: 1843262253
+  - name: Layer 2
+    uniqueID: 4250941897
     locked: 0
-  - name: Plant
-    uniqueID: 4227942029
-    locked: 0
-  - name: Building
-    uniqueID: 2680730899
-    locked: 0
-  - name: Platform
-    uniqueID: 1261648439
-    locked: 0
-  - name: Player
-    uniqueID: 520727343
-    locked: 0
-  - name: Effect
-    uniqueID: 3616492979
-    locked: 0
-  - name: UI
-    uniqueID: 2738916169
+  - name: Layer 3
+    uniqueID: 4189426099
     locked: 0
